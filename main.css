@@ -1,0 +1,26 @@
+	body {
+	    text-align: center;
+	    background-color: #202020;
+	    color: #f0f0f0;
+	    font-family: 'Roboto', sans-serif;
+	}
+	a {
+	    color: #f0f0f0;
+	}
+	.button1 {
+	    border-radius: 4px;
+	    width: 90%;
+	    height: 5%;
+	    background-color: #f0f0f0;
+	    color: #202020
+	}
+	.button2 {
+	    background-color: #E0E0E0;
+	    color: #202020;
+	    border-radius: 4px;
+	    width: 90%;
+	    height: 5%;
+	}
+	#password {
+	    font-family: monospace;
+	}
