@@ -39,3 +39,7 @@ h1 {
 	position: absolute;
 	bottom: 0;
 }
+.warning {
+	color: red;
+	font-weight: 700;
+}
