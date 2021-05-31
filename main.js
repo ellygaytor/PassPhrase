@@ -131,20 +131,3 @@
      document.getElementById("password").textContent = thePassword;
      hpass = stringToHash(thePassword);
  }
-
- function comingSoon() {
-     alert("Coming soon.");
- }
-
- function checkPass() {
-     let userAttempt = stringToHash(prompt("Enter the password"))
-     if (userAttempt === hpass) {
-         alert("You've entered the password correctly");
-     } else {
-         alert("Sorry, that's not the password.");
-     }
-     let retry = confirm("Want to try again?")
-     if (retry === true) {
-         checkPass()
-     }
- }
