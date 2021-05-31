@@ -1,4 +1,18 @@
- function stringToHash(string) {
+function getRandomIntInclusive(min, max) {
+    const randomBuffer = new Uint32Array(1);
+
+    window.crypto.getRandomValues(randomBuffer);
+
+    let randomNumber = randomBuffer[0] / (0xffffffff + 1);
+
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(randomNumber * (max - min + 1)) + min;
+}
+
+
+
+function stringToHash(string) {
      var hash = 0;
      if (string.length == 0) return hash;
      for (i = 0; i < string.length; i++) {
@@ -111,7 +125,7 @@
      if (length === 0) {
          return
      }
-     return array[Math.random() * length | 0]
+     return array[getRandomIntInclusive(0,length)]
  }
  async function fetchLines(url) {
      const response = await fetch(url);
@@ -126,8 +140,8 @@
  }
  async function button() {
      const phrases = await generate();
-     const thePassword = (Math.floor(Math.random() * 9) + 2) + " " + phrases.join(
-         " ") + punctuation[Math.floor(Math.random() * punctuation.length)];
+     const thePassword = getRandomIntInclusive(2,9) + " " + phrases.join(
+         " ") + punctuation[getRandomIntInclusive(0,punctuation.length-1)];
      document.getElementById("password").textContent = thePassword;
      hpass = stringToHash(thePassword);
  }
