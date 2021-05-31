@@ -10,11 +10,9 @@ abdomen
 ability
 abnormality
 abolishment
-abortion
 abrogation
 absence
 abundance
-abuse
 academics
 academy
 accelerant
@@ -58,7 +56,6 @@ acupuncture
 ad
 adaptation
 adapter
-addiction
 addition
 address
 adjective
@@ -312,7 +309,6 @@ asparagus
 aspect
 asphalt
 aspic
-ass
 assassination
 assault
 assembly
@@ -848,7 +844,6 @@ camper
 campus
 can
 canal
-cancer
 candelabra
 candidacy
 candidate
@@ -1018,7 +1013,6 @@ chart
 charter
 chasm
 chassis
-chastity
 chasuble
 chateau
 chatter
@@ -2888,7 +2882,6 @@ help
 hemisphere
 hemp
 hen
-hepatitis
 herb
 herbs
 heritage
