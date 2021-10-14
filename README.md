@@ -8,8 +8,3 @@ Generate easy to remember passphrases.
 PassPhrase pulls two random adjectives and one random noun, and chooses a random number and puctuation, to make a *usually* grammatically correct sentence in this format:
 
 `{number} {adjective} {adjective} {noun}{puctuation}`
-
-## Installation 
-
-1. Download the latest release [here](http://github.com/fishofivory/PassPhrase/releases/latest).
-2. Unzip the files and copy to your server where you want the service to be available.
