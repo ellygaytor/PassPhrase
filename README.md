@@ -1,7 +1,7 @@
 # PassPhrase
 Generate easy to remember passphrases.
 
-[![GitHub license](https://img.shields.io/github/license/fishofivory/PassPhrase)](https://github.com/fishofivory/PassPhrase/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/ellygaytor/PassPhrase)](https://github.com/ellygaytor/PassPhrase/blob/master/LICENSE)
 
 ## Why use passphrases?
 
