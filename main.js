@@ -20,7 +20,6 @@ function stringToHash(string) {
 	}
 	return hash;
 }
-let hpass = null;
 let thePassword = null;
 String.prototype.plural = function (revert) {
 	var plural = {
@@ -155,5 +154,4 @@ async function button() {
 		phrases.join(" ") +
 		punctuation[getRandomIntInclusive(0, punctuation.length - 1)];
 	document.getElementById("password").textContent = thePassword;
-	hpass = stringToHash(thePassword);
 }
