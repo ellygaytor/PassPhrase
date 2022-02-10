@@ -135,9 +135,9 @@ async function generate() {
 		fetchLines("./n.txt"),
 	]);
 	return [
-		randomItem(adjectives),
-		randomItem(adjectives),
-		randomItem(nouns).plural(),
+		capitalizeFirstLetter(randomItem(adjectives)),
+		capitalizeFirstLetter(randomItem(adjectives)),
+		capitalizeFirstLetter(randomItem(nouns).plural()),
 	];
 }
 async function button() {
