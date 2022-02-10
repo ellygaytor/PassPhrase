@@ -1,0 +1,45 @@
+body {
+	text-align: center;
+	background-color: #202020;
+	color: #f0f0f0;
+	font-family: "Inter", sans-serif;
+}
+a {
+	color: #f0f0f0;
+}
+h1 {
+	font-size: 3.25em;
+}
+.button2 {
+	background-color: #ffffff;
+	border: none;
+	color: #202020;
+	padding: 1em 2em;
+	text-align: center;
+	display: inline-block;
+	font-size: 1.1em;
+	box-shadow: 0 9px #999;
+	border-radius:.2em;
+
+}
+.button2:hover {
+	background-color: #d5d5d5;
+}
+.button2:active {
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+#password {
+	font-family: monospace;
+	font-size: 2.5em;
+	background-color: black;
+	border-radius:.2em;
+}
+.bottom {
+	position: absolute;
+	bottom: 0;
+}
+.warning {
+	color: red;
+	font-weight: 700;
+}
