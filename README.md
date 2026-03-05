@@ -1,7 +1,15 @@
 # PassPhrase
-Generate easy to remember passphrases.
 
-[![GitHub license](https://img.shields.io/github/license/ellygaytor/PassPhrase)](https://github.com/ellygaytor/PassPhrase/blob/master/LICENSE)
+Generate easy-to-remember, grammatically correct passphrases.
+
+Download on the (App Store)[https://apps.apple.com/ca/app/passphrase/id6476984871] — available for iPhone, Mac, and Apple Vision.
+
+This repo contains the web version. The iOS app is built in Swift and SwiftUI.
+
+No data collected
+No account required
+Free
+
 
 ## Why use passphrases?
 
