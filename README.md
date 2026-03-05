@@ -2,7 +2,7 @@
 
 Generate easy-to-remember, grammatically correct passphrases.
 
-Download on the (App Store)[https://apps.apple.com/ca/app/passphrase/id6476984871] — available for iPhone, Mac, and Apple Vision.
+Download on the (App Store)[https://apps.apple.com/ca/app/passphrase/id6476984871].
 
 This repo contains the web version. The iOS app is built in Swift and SwiftUI.
 
